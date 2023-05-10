@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>administrador de tareas</title>
+</head>
+<body>
+  <button type="button" class="my-tasks">mis tareas</button>
+  <div class="container">
+    <h1 class="title">Administrador de tareas</h1>
+    <form class="form">
+      <div class="form-group">
+        <label for="title">Título</label>
+        <input type="text" id="title" name="title" class="form-input" required>
+      </div>
+      <div class="form-group">
+        <label for="description">Descripción</label>
+        <textarea id="description" name="description" class="form-input" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="category">Categoria</label>
+        <select id="category" name="category" class="form-input" required>
+          <option value=""> Seleciona una categoria </option>
+          <option value="Urgente">Urgente</option>
+          <option value="Importante">Importante</option>
+          <option value="Normal">Normal</option>
+        </select>
+      </div>
+      <button type="submit" class="form-button btn">Añadir</button>
+    </form>
+  </div>
+  <div class="modal-container">
+
+
+  <script src="./src/index.js"></script>
+</body>
+</html>

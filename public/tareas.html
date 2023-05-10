@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Lista de Tareas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/tareas.css">
+  </head>
+  <body>
+    <button type="button" class="create-task"> Crear tarea</button>
+    <h1>Lista de Tareas</h1>
+    <div class="container">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Tarea</th>
+            <th>Descripción</th>
+            <th>Categoría</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Aquí se llenará con datos dinámicamente desde el backend -->
+        </tbody>
+      </table>
+    </div>
+
+    <div class="editar">
+
+    </div>
+    
+    <script src="../src/tareas.js">
+      // Aquí se podría utilizar JavaScript para obtener las tareas desde el backend
+      // y crear las filas dinámicamente en la tabla.
+    </script>
+  </body>
+</html>

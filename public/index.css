@@ -1,0 +1,118 @@
+body {
+    background-color: #141414;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    transform: translateY(50%);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.6);
+    background-color: #2b2b2b;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group select,
+  .form-group select option{
+    background-color: #3b3b3b;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .form-group input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b3b3b;
+    color: #fff;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+  }
+  
+  .form-group textarea {
+    display: block;
+    width: 100%;
+    max-width: calc(100% - 10px);
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b3b3b;
+    color: #fff;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transform: translateX(450%);
+  }
+
+  .my-tasks{
+    display: block;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color:  #ff7f00;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .my-tasks:hover{
+    background-color: #9b870c;
+  }
+  
+  .btn:hover {
+    background-color: #0069d9;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 30px;
+    }
+  }
+
+  .background {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    max-width: 200px;
+    transform: translateY(50%);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.6);
+    background-color: #2b2b2b;
+  }
